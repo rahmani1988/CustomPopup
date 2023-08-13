@@ -13,6 +13,6 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }
     }
 }
-rootProject.name = "CustomPopup"
+rootProject.name = "custompopup"
 include ':app'
 include ':popuplibrary'

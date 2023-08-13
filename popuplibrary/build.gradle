@@ -56,22 +56,22 @@ publishing {
     publications {
         release(MavenPublication) {
             groupId = 'com.github.rahmani1988'
-            artifactId = 'custom-popup-release'
-            version = '1.6'
+            artifactId = 'custom-popup'
+            version = '1.7'
 
             afterEvaluate {
                 from components.release
             }
         }
 
-        debug(MavenPublication) {
-            groupId = 'com.github.rahmani1988'
-            artifactId = 'custom-popup-debug'
-            version = '1.6'
-
-            afterEvaluate {
-                from components.debug
-            }
-        }
+//        debug(MavenPublication) {
+//            groupId = 'com.github.rahmani1988'
+//            artifactId = 'custom-popup-debug'
+//            version = '1.6'
+//
+//            afterEvaluate {
+//                from components.debug
+//            }
+//        }
     }
 }

@@ -48,8 +48,7 @@ android {
 
 dependencies {
 
-    // Project
-    implementation project(':popuplibrary')
+    implementation 'com.github.rahmani1988.CustomPopup:custom-popup-release:1.6'
 
     implementation 'androidx.core:core-ktx:1.10.1'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.1'
