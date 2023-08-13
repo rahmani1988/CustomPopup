@@ -57,7 +57,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.rahmani1988'
             artifactId = 'custom-popup'
-            version = '1.7'
+            version = '1.8'
 
             afterEvaluate {
                 from components.release
