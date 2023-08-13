@@ -67,7 +67,7 @@ afterEvaluate {
 
                 groupId = 'com.github.rahmani1988'
                 artifactId = 'custompopup'
-                version = '1.4'
+                version = '1.5'
             }
         }
     }
