@@ -66,8 +66,8 @@ afterEvaluate {
                 from components.release
 
                 groupId = 'com.github.rahmani1988'
-                artifactId = 'custom-popup'
-                version = '1.0'
+                artifactId = 'custompopup'
+                version = '1.4'
             }
         }
     }
