@@ -70,7 +70,7 @@ publishing {
             version = '1.6'
 
             afterEvaluate {
-                from components.release
+                from components.debug
             }
         }
     }
