@@ -63,15 +63,5 @@ publishing {
                 from components.release
             }
         }
-
-//        debug(MavenPublication) {
-//            groupId = 'com.github.rahmani1988'
-//            artifactId = 'custom-popup-debug'
-//            version = '1.6'
-//
-//            afterEvaluate {
-//                from components.debug
-//            }
-//        }
     }
 }
