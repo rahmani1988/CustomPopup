@@ -49,7 +49,7 @@ android {
 dependencies {
 
     // Projects
-    implementation 'com.github.rahmani1988:CustomPopup:1.8'
+    implementation project(':popup')
 
     implementation 'androidx.core:core-ktx:1.10.1'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.1'
