@@ -6,11 +6,11 @@ plugins {
 
 android {
     namespace 'com.reza.popuplibrary'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         minSdk 21
-        targetSdk 33
+        targetSdk 34
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -56,7 +56,7 @@ publishing {
     publications {
         release(MavenPublication) {
             groupId = 'com.github.rahmani1988'
-            artifactId = 'custom-popup'
+            artifactId = 'popup'
             version = '1.8'
 
             afterEvaluate {
